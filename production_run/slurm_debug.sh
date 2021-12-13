@@ -35,7 +35,7 @@ export rsdir=more_rs${rowstart}
 
 export PYTHONPATH=./mpi:$PYTHONPATH
 
-export topdir=$CSCRATCH/obiwan_testrun/
+export topdir=$CSCRATCH/Obiwan/obiwan_testrun/
 export outdir=$topdir/$name_for_run/production_run/${rsdir}
 mkdir -p $outdir
 
